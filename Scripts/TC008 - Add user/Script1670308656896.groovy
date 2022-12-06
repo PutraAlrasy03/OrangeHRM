@@ -25,3 +25,21 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/adm
 
 WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/button_Add'))
 
+WebUI.selectOptionByValue(findTestObject(null), '', false)
+
+WebUI.setText(findTestObject('Object Repository/TC008/Page_OrangeHRM/input'), 'Allu  Arjun')
+
+WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/div_-- Select --'))
+
+WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'))
+
+WebUI.setText(findTestObject('Object Repository/TC008/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus o_d4f516'), 
+    'Allu1')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TC008/Page_OrangeHRM/input_Password_oxd-input oxd-input--focus o_671073'), 
+    'A8J5DB7QB2/+yLWTFNfonQ==')
+
+WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/button_Save'))
+
+WebUI.verifyElementChecked(findTestObject('Page_OrangeHRM/div_SuccessSuccessfully Saved'), 0)
+
