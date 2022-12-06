@@ -17,15 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+WebUI.click(findTestObject('Object Repository/TC005/Page_OrangeHRM/a_Admin'))
 
-WebUI.setText(findTestObject('Object Repository/TC002/Page_OrangeHRM/input_Username_username'), GlobalVariable.username)
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers')
 
-WebUI.setText(findTestObject('Object Repository/TC002/Page_OrangeHRM/input_Password_password'), 'admin')
+WebUI.click(findTestObject('Object Repository/TC005/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'))
 
-WebUI.click(findTestObject('Object Repository/TC002/Page_OrangeHRM/button_Login'))
+WebUI.setText(findTestObject('Object Repository/TC005/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 'Allu123')
 
-WebUI.verifyElementText(findTestObject('Object Repository/TC002/Page_OrangeHRM/div_Invalid credentials'), 'Invalid credentials')
+WebUI.click(findTestObject('Object Repository/TC005/Page_OrangeHRM/button_Search'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/TC005/Page_OrangeHRM/span_(1) Record Found'), '(1) Record Found')
 
