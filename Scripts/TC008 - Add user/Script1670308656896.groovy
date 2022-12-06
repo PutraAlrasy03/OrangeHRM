@@ -19,15 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC005/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/a_Admin'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers')
 
-WebUI.click(findTestObject('Object Repository/TC005/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'))
-
-WebUI.setText(findTestObject('Object Repository/TC005/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 'Allu123')
-
-WebUI.click(findTestObject('Object Repository/TC005/Page_OrangeHRM/button_Search'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/TC005/Page_OrangeHRM/span_(1) Record Found'), '(1) Record Found')
+WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/button_Add'))
 

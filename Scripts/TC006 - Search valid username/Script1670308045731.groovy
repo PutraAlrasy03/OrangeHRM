@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC004/Page_OrangeHRM/i_Dashboard_oxd-icon bi-caret-down-fill oxd_d2fd49'))
+WebUI.click(findTestObject('Object Repository/TC006/Page_OrangeHRM/a_Admin'))
 
-WebUI.click(findTestObject('Object Repository/TC004/Page_OrangeHRM/a_Change Password'))
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers')
 
-WebUI.setText(findTestObject('TC004/Page_OrangeHRM/input_Current Password_oxd-input oxd-input--focus'), GlobalVariable.password)
+WebUI.click(findTestObject('Object Repository/TC006/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'))
 
-WebUI.setText(findTestObject('TC004/Page_OrangeHRM/input_password'), 'Alrasy03_')
+WebUI.setText(findTestObject('Object Repository/TC006/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 'Allu123')
 
-WebUI.setText(findTestObject('TC004/Page_OrangeHRM/input_Confirm password'), 'Alrasy03_')
+WebUI.click(findTestObject('Object Repository/TC006/Page_OrangeHRM/button_Search'))
 
-WebUI.click(findTestObject('Object Repository/TC004/Page_OrangeHRM/button_Save'))
+WebUI.verifyElementText(findTestObject('Object Repository/TC006/Page_OrangeHRM/span_(1) Record Found'), '(1) Record Found')
 

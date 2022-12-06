@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Admin</name>
    <tag></tag>
-   <elementGuidId>3e8c3151-0f04-4a73-a9b1-50f5021f1044</elementGuidId>
+   <elementGuidId>2204a09d-0ed6-45dc-90ee-69b014460517</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>a.oxd-main-menu-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ca796250-83aa-47c5-ae6a-a41d5a7b624a</webElementGuid>
+      <webElementGuid>bc851fed-2664-4c90-9a7d-52a6b04f0fff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-main-menu-item</value>
-      <webElementGuid>c2249e3d-19a5-4769-9425-76abe64dcf5a</webElementGuid>
+      <webElementGuid>0cf29b04-dc22-463e-acd5-c6041efe323e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/web/index.php/admin/viewAdminModule</value>
-      <webElementGuid>2ace15f0-3b6e-462b-94df-caab6c3bc55d</webElementGuid>
+      <webElementGuid>fa2d4585-38fc-4f24-9f1e-f3fac4891914</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Admin</value>
-      <webElementGuid>1fa9e0d1-9bf3-43ad-9327-de4b56a1ad37</webElementGuid>
+      <webElementGuid>0e857911-dea7-4be8-bc37-4876e529b98f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>71c7f1e0-bcc9-4ac1-a996-4fb1e7f5892b</webElementGuid>
+      <webElementGuid>1f9688ca-7a26-4cde-bc77-543540a8641e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
-      <webElementGuid>2d4af519-ebfc-4f5e-8d11-81afae622315</webElementGuid>
+      <webElementGuid>f67ce2bb-349d-4be7-93ea-a8d50c3ae9f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/web/index.php/admin/viewAdminModule')]</value>
-      <webElementGuid>c20e5692-248c-4c9e-aefd-db9086f29578</webElementGuid>
+      <webElementGuid>a70274f9-e633-4167-b9d4-1bd638d17928</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a</value>
-      <webElementGuid>f4002382-ef6a-42b6-9000-fe4bdf321f6d</webElementGuid>
+      <webElementGuid>030ea259-e889-4224-b3b9-3008b281fc8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/web/index.php/admin/viewAdminModule' and (text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>86675d6d-0a68-493e-9c55-81075c803c15</webElementGuid>
+      <webElementGuid>a0179cec-e255-4e5b-b753-8a97cd3b03b6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

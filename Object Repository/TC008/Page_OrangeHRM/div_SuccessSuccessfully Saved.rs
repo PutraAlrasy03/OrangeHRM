@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Admin</name>
+   <name>div_SuccessSuccessfully Saved</name>
    <tag></tag>
-   <elementGuidId>3e8c3151-0f04-4a73-a9b1-50f5021f1044</elementGuidId>
+   <elementGuidId>d13b167d-879c-44ba-abf7-eda28439153a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
+         <key>CSS</key>
+         <value>div.oxd-toast.oxd-toast--success.oxd-toast-container--toast</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>a.oxd-main-menu-item</value>
+         <key>XPATH</key>
+         <value>//div[@id='oxd-toaster_1']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,71 +21,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>ca796250-83aa-47c5-ae6a-a41d5a7b624a</webElementGuid>
+      <value>div</value>
+      <webElementGuid>12151681-7882-4851-8d3f-436f31e2389f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-main-menu-item</value>
-      <webElementGuid>c2249e3d-19a5-4769-9425-76abe64dcf5a</webElementGuid>
+      <value>oxd-toast oxd-toast--success oxd-toast-container--toast</value>
+      <webElementGuid>11582a99-a62e-4ef3-b5f9-a1b966154d12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>aria-live</name>
       <type>Main</type>
-      <value>/web/index.php/admin/viewAdminModule</value>
-      <webElementGuid>2ace15f0-3b6e-462b-94df-caab6c3bc55d</webElementGuid>
+      <value>assertive</value>
+      <webElementGuid>8b524057-939c-49d5-bcc7-75b8832ad65e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Admin</value>
-      <webElementGuid>1fa9e0d1-9bf3-43ad-9327-de4b56a1ad37</webElementGuid>
+      <value>SuccessSuccessfully Saved × </value>
+      <webElementGuid>7ebaa623-4299-4cf4-b6b0-427eea2b31a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>71c7f1e0-bcc9-4ac1-a996-4fb1e7f5892b</webElementGuid>
+      <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--success oxd-toast-container--toast&quot;]</value>
+      <webElementGuid>cf714e76-1953-49ab-9439-4714b4163a76</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
-      <webElementGuid>2d4af519-ebfc-4f5e-8d11-81afae622315</webElementGuid>
+      <value>//div[@id='oxd-toaster_1']/div</value>
+      <webElementGuid>1a64bf5a-07cb-485e-b910-a9e50d9aa9dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/web/index.php/admin/viewAdminModule')]</value>
-      <webElementGuid>c20e5692-248c-4c9e-aefd-db9086f29578</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/following::div[2]</value>
+      <webElementGuid>73154258-fd6e-43c2-aad7-2d2ab95030a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/a</value>
-      <webElementGuid>f4002382-ef6a-42b6-9000-fe4bdf321f6d</webElementGuid>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>dde0addb-3ebf-492a-a3e4-b8e32ec28c43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/web/index.php/admin/viewAdminModule' and (text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>86675d6d-0a68-493e-9c55-81075c803c15</webElementGuid>
+      <value>//div[(text() = 'SuccessSuccessfully Saved × ' or . = 'SuccessSuccessfully Saved × ')]</value>
+      <webElementGuid>d735bc10-c275-40f2-99b4-bcc862ad56c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

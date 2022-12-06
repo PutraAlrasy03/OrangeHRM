@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Current Password_oxd-input oxd-input--focus</name>
    <tag></tag>
-   <elementGuidId>30048154-5c2f-4ff4-9293-7e64e81bd898</elementGuidId>
+   <elementGuidId>2d97529a-f198-491c-a99d-caa792a90100</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(//div[2]/input)[1]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>input.oxd-input.oxd-input--focus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[2]/input)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
