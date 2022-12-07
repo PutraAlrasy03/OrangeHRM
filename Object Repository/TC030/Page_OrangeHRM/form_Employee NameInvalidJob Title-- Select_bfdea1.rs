@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Employee NameInvalidJob Title-- Select_bfdea1</name>
+   <tag></tag>
+   <elementGuidId>b10b18ce-d6e9-4376-ac6b-a9cbaacb93ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form.oxd-form</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>f9d0894b-9761-4c80-93dd-151792286eb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-form</value>
+      <webElementGuid>f3325ab7-7982-4061-9a88-ae6744ad1fe9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Employee NameInvalidJob Title-- Select --Location-- Select -- Reset  Search </value>
+      <webElementGuid>d693a2b3-0655-4aab-990c-90372b34fee7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-area&quot;]/form[@class=&quot;oxd-form&quot;]</value>
+      <webElementGuid>c2203e84-9561-46a4-82f0-74f61187d9f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form</value>
+      <webElementGuid>c45fcdac-61c3-4953-889c-fd02695fa837</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>a19c23f8-1af3-4bd1-9799-8005f236b461</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Employee NameInvalidJob Title-- Select --Location-- Select -- Reset  Search ' or . = 'Employee NameInvalidJob Title-- Select --Location-- Select -- Reset  Search ')]</value>
+      <webElementGuid>0710ac8b-7767-408b-8c61-4679bb1bd794</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
