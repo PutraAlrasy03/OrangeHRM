@@ -19,16 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Common/Add job'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/Add pay grade'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/TC011/Page_OrangeHRM/input_Job Title_oxd-input oxd-input--focus'), 'Cleaner')
+WebUI.click(findTestObject('Object Repository/TC017/Page_OrangeHRM/button_Add'))
 
-WebUI.setText(findTestObject('Object Repository/TC011/Page_OrangeHRM/textarea_Job Description_oxd-textarea oxd-t_4f7bba'), 
-    'cleaning')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade')
 
-WebUI.click(findTestObject('Object Repository/TC011/Page_OrangeHRM/div_Browse'))
+WebUI.setText(findTestObject('Object Repository/TC017/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 'Grade 6')
 
-WebUI.click(findTestObject('Object Repository/TC011/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/TC017/Page_OrangeHRM/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/TC011/Page_OrangeHRM/div_SuccessSuccessfully Saved'))
+WebUI.verifyElementPresent(findTestObject('TC017/Page_OrangeHRM/div_InfoNo Records Found'), 0)
 

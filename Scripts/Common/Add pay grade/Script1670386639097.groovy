@@ -17,18 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/TC017/Page_OrangeHRM/a_Admin'))
 
-WebUI.callTestCase(findTestCase('Common/Add job'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers')
 
-WebUI.setText(findTestObject('Object Repository/TC011/Page_OrangeHRM/input_Job Title_oxd-input oxd-input--focus'), 'Cleaner')
+WebUI.click(findTestObject('Object Repository/TC017/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
 
-WebUI.setText(findTestObject('Object Repository/TC011/Page_OrangeHRM/textarea_Job Description_oxd-textarea oxd-t_4f7bba'), 
-    'cleaning')
-
-WebUI.click(findTestObject('Object Repository/TC011/Page_OrangeHRM/div_Browse'))
-
-WebUI.click(findTestObject('Object Repository/TC011/Page_OrangeHRM/button_Save'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/TC011/Page_OrangeHRM/div_SuccessSuccessfully Saved'))
+WebUI.click(findTestObject('Object Repository/TC017/Page_OrangeHRM/a_Pay Grades'))
 

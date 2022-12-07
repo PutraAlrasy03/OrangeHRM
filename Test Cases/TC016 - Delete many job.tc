@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC016 - Delete many job</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3f4f3d0-6463-4ebe-85dc-755db303ce65</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC013 - Add job select file more than 1 MB (--)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8de5575-b53a-408c-a8f4-a059d8a0f973</testCaseGuid>
+</TestCaseEntity>

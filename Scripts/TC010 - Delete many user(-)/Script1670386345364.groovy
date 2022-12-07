@@ -19,16 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Common/Add job'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/TC010/Page_OrangeHRM/a_Admin'))
 
-WebUI.setText(findTestObject('Object Repository/TC011/Page_OrangeHRM/input_Job Title_oxd-input oxd-input--focus'), 'Cleaner')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers')
 
-WebUI.setText(findTestObject('Object Repository/TC011/Page_OrangeHRM/textarea_Job Description_oxd-textarea oxd-t_4f7bba'), 
-    'cleaning')
+WebUI.click(findTestObject('TC010/Page_OrangeHRM/i_Enabled_oxd-icon bi-check oxd-checkbox-in_111cd0'))
 
-WebUI.click(findTestObject('Object Repository/TC011/Page_OrangeHRM/div_Browse'))
+WebUI.click(findTestObject('TC010/Page_OrangeHRM/i_Enabled_oxd-icon bi-check oxd-checkbox-in_111cd0 - Copy'))
 
-WebUI.click(findTestObject('Object Repository/TC011/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/TC010/Page_OrangeHRM/button_Delete Selected'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/TC011/Page_OrangeHRM/div_SuccessSuccessfully Saved'))
+WebUI.click(findTestObject('Object Repository/TC010/Page_OrangeHRM/button_Yes, Delete'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/TC010/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), FailureHandling.STOP_ON_FAILURE)
 

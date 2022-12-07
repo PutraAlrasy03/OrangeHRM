@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC010 - Delete many user(--)</name>
+   <name>TC012 - Add job title that registered (-)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6e11ac03-449c-406f-8aca-864499cf3c5a</testCaseGuid>
+   <testCaseGuid>9abb6701-5d36-4d1c-9692-97265572a2b5</testCaseGuid>
 </TestCaseEntity>
