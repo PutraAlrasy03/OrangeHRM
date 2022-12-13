@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bb052c26-c32a-4e0b-ac0c-b6f0a719dc6f</webElementGuid>
+      <webElementGuid>26eb6545-59f8-469b-8a78-1d572e340ff8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-toast oxd-toast--success oxd-toast-container--toast</value>
-      <webElementGuid>5a683ab7-80a0-4d6e-975d-1dea93c41f47</webElementGuid>
+      <webElementGuid>1809b889-10c0-4680-8bb0-b99968ef8910</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-live</name>
       <type>Main</type>
       <value>assertive</value>
-      <webElementGuid>deee6edf-af69-4d54-a8f7-d51f9425f6e2</webElementGuid>
+      <webElementGuid>02d59342-df15-4fa8-ab4a-0e5b097d6ebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SuccessSuccessfully Deleted × </value>
-      <webElementGuid>5e68d89c-f99f-4e7b-9f75-6bfcfe01e6bb</webElementGuid>
+      <webElementGuid>40532038-2ccd-4e6b-8467-f6847143a2d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--success oxd-toast-container--toast&quot;]</value>
-      <webElementGuid>fc59e0c5-8798-4f21-8b62-d401661c1390</webElementGuid>
+      <webElementGuid>a7d12d9d-87b9-4f7e-8d53-cbd21b18ff1e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='oxd-toaster_1']/div</value>
-      <webElementGuid>c6028cc7-56c0-493b-9883-0971793f147f</webElementGuid>
+      <webElementGuid>9578247c-9f43-4f76-8f97-13c987d598ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/following::div[2]</value>
-      <webElementGuid>a8084c3b-c955-4206-ad2a-2e55b9ed32a1</webElementGuid>
+      <webElementGuid>a21d2e92-484b-40b6-ad29-1a736c0a0704</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div</value>
-      <webElementGuid>f6cd56e1-797a-4c5c-998e-29fe98d876d6</webElementGuid>
+      <webElementGuid>71aac354-2075-41cc-917b-ea30932a42c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'SuccessSuccessfully Deleted × ' or . = 'SuccessSuccessfully Deleted × ')]</value>
-      <webElementGuid>518812de-9aa0-4abf-8219-d7a092513706</webElementGuid>
+      <webElementGuid>52684fcb-e295-47be-a6f5-c5f58e6e68a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

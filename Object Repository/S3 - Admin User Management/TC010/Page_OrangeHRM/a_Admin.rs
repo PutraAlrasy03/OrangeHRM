@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>833cced5-9ef2-4871-93a2-ebeb794dfa22</webElementGuid>
+      <webElementGuid>3fc9681e-5dee-4bae-bf47-f6ed7af5f5b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-main-menu-item</value>
-      <webElementGuid>c90902db-823e-440b-90b3-31bd86d2f393</webElementGuid>
+      <webElementGuid>5a1b9987-d472-42df-a23d-90bc630d1810</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/web/index.php/admin/viewAdminModule</value>
-      <webElementGuid>dfc5e194-a046-4d7f-991d-b478798a06cb</webElementGuid>
+      <webElementGuid>107b31ad-dc6e-422d-aa00-dbbc78d8c163</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Admin</value>
-      <webElementGuid>6bf05ae8-6e71-40d4-9730-71d247ad3304</webElementGuid>
+      <webElementGuid>d86bbfce-628c-49f9-9d3c-de4795bc5d01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>c9a4c624-a2a2-4e61-b43b-73f0d30996bf</webElementGuid>
+      <webElementGuid>adfd78ee-8aef-44e0-8209-a24c22c25425</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
-      <webElementGuid>0dd9b5ae-98f4-4cea-b05a-5f2179dd3c86</webElementGuid>
+      <webElementGuid>1140fd1e-bba3-4a58-be72-0f363838f93f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/web/index.php/admin/viewAdminModule')]</value>
-      <webElementGuid>39ba408c-528a-4db0-a6ff-74458bee2f2e</webElementGuid>
+      <webElementGuid>64846b2f-cab4-41c8-a43c-db5937b92af5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a</value>
-      <webElementGuid>ca7df7de-959e-424b-82da-fc9e22eb44d7</webElementGuid>
+      <webElementGuid>9af4555b-fdf7-41f8-a1aa-067a522a7c48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/web/index.php/admin/viewAdminModule' and (text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>263c2275-c487-40ac-99a1-8d1407acb84e</webElementGuid>
+      <webElementGuid>e5553783-d2b3-4263-a755-53021b336fd6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[2]/div/div/div/div/label/span/i)[3]</value>
+         <value>//div[3]/div/div/div/div/label/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>f9d5c433-0c04-42c1-8abb-c4329ec65f9b</webElementGuid>
+      <webElementGuid>f899ba24-680a-4d3b-8e48-5f86d964d479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-icon bi-check oxd-checkbox-input-icon</value>
-      <webElementGuid>27719758-191a-495b-a163-e8c09005a003</webElementGuid>
+      <webElementGuid>1618d10d-152d-4947-9a37-6d8fa4c2c649</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-container&quot;]/div[@class=&quot;oxd-table&quot;]/div[@class=&quot;oxd-table-body&quot;]/div[@class=&quot;oxd-table-card&quot;]/div[@class=&quot;oxd-table-row oxd-table-row--with-border&quot;]/div[@class=&quot;oxd-table-cell oxd-padding-cell&quot;]/div[@class=&quot;oxd-table-card-cell-checkbox&quot;]/div[@class=&quot;oxd-checkbox-wrapper&quot;]/label[1]/span[@class=&quot;oxd-checkbox-input oxd-checkbox-input--active --label-right oxd-checkbox-input&quot;]/i[@class=&quot;oxd-icon bi-check oxd-checkbox-input-icon&quot;]</value>
-      <webElementGuid>07b59f42-c5af-4f21-8cc6-c7b257c27a44</webElementGuid>
+      <webElementGuid>b7cc37ad-3ddc-480a-87b8-79fb86462954</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div[2]/div/div/div/div/label/span/i</value>
-      <webElementGuid>94d0933e-9a81-47db-93df-54172aee82da</webElementGuid>
+      <webElementGuid>e6737db5-bff0-491c-8696-76010da6f64e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/label/span/i</value>
-      <webElementGuid>6bb47457-687d-4581-bb4c-fa4033785f8e</webElementGuid>
+      <webElementGuid>d15df2bc-29dd-411a-bb45-39164b272491</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,11 +23,12 @@ WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC009/P
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers')
 
-WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/i_Enabled_oxd-icon bi-check oxd-checkbox-in_111cd0'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad'))
 
-WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/i_Enabled_oxd-icon bi-trash'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/button_Delete Selected'))
 
 WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/button_Yes, Delete'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), 
+    0)
 

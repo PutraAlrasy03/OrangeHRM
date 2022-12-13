@@ -21,7 +21,9 @@ WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.callTestCase(findTestCase('Common/Add job'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC012/Page_OrangeHRM/input_Job Title_oxd-input oxd-input--focus'), 'AE')
+WebUI.setText(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC012/Page_OrangeHRM/input_Job Title_oxd-input oxd-input--focus'), 
+    'Cleaner')
 
-WebUI.verifyElementText(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC012/Page_OrangeHRM/span_Already exists'), 'Already exists')
+WebUI.verifyElementText(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC012/Page_OrangeHRM/span_Already exists'), 
+    'Already exists')
 
