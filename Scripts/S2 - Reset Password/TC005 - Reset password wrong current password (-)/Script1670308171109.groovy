@@ -19,18 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC005/Page_OrangeHRM/i_Dashboard_oxd-icon bi-caret-down-fill oxd_d2fd49'))
+WebUI.click(findTestObject('Object Repository/S2 - Reset Password/TC005/Page_OrangeHRM/i_Dashboard_oxd-icon bi-caret-down-fill oxd_d2fd49'))
 
-WebUI.click(findTestObject('Object Repository/TC005/Page_OrangeHRM/a_Change Password'))
+WebUI.click(findTestObject('Object Repository/S2 - Reset Password/TC005/Page_OrangeHRM/a_Change Password'))
 
-WebUI.setText(findTestObject('Object Repository/TC005/Page_OrangeHRM/input_Current Password_oxd-input oxd-input--focus'), 
+WebUI.setText(findTestObject('Object Repository/S2 - Reset Password/TC005/Page_OrangeHRM/input_Current Password_oxd-input oxd-input--focus'), 
     'admin')
 
-WebUI.setText(findTestObject('Object Repository/TC005/Page_OrangeHRM/input_password'), 'Alrasy03_')
+WebUI.setText(findTestObject('Object Repository/S2 - Reset Password/TC005/Page_OrangeHRM/input_password'), 'Alrasy03_')
 
-WebUI.setText(findTestObject('Object Repository/TC005/Page_OrangeHRM/input_Confirm password'), 'Alrasy03_')
+WebUI.setText(findTestObject('Object Repository/S2 - Reset Password/TC005/Page_OrangeHRM/input_Confirm password'), 'Alrasy03_')
 
-WebUI.click(findTestObject('Object Repository/TC005/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/S2 - Reset Password/TC005/Page_OrangeHRM/button_Save'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/TC005/Page_OrangeHRM/p_Error'), 'Error')
+WebUI.verifyElementText(findTestObject('Object Repository/S2 - Reset Password/TC005/Page_OrangeHRM/p_Error'), 'Error')
 

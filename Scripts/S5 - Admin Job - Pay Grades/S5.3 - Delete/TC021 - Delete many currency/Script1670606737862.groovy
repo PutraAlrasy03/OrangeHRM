@@ -21,13 +21,13 @@ WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.callTestCase(findTestCase('Common/Add pay grade'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC020/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad'))
+WebUI.click(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC020/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad'))
 
-WebUI.click(findTestObject('TC020/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad - Copy'))
+WebUI.click(findTestObject('S5 - Admin Job - Pay Grades/TC020/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad - Copy'))
 
-WebUI.click(findTestObject('Object Repository/TC020/Page_OrangeHRM/button_Delete Selected'))
+WebUI.click(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC020/Page_OrangeHRM/button_Delete Selected'))
 
-WebUI.click(findTestObject('Object Repository/TC020/Page_OrangeHRM/button_Yes, Delete'))
+WebUI.click(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC020/Page_OrangeHRM/button_Yes, Delete'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/TC020/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC020/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), 0)
 

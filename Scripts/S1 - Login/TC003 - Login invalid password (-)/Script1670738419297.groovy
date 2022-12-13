@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/TC002/Page_OrangeHRM/input_Username_username'), GlobalVariable.username)
+WebUI.setText(findTestObject('Object Repository/S1 - Login/TC002/Page_OrangeHRM/input_Username_username'), GlobalVariable.username)
 
-WebUI.setText(findTestObject('Object Repository/TC002/Page_OrangeHRM/input_Password_password'), 'admin')
+WebUI.setText(findTestObject('Object Repository/S1 - Login/TC002/Page_OrangeHRM/input_Password_password'), 'admin')
 
-WebUI.click(findTestObject('Object Repository/TC002/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('Object Repository/S1 - Login/TC002/Page_OrangeHRM/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/TC002/Page_OrangeHRM/div_Invalid credentials'), 'Invalid credentials')
+WebUI.verifyElementText(findTestObject('Object Repository/S1 - Login/TC002/Page_OrangeHRM/div_Invalid credentials'), 'Invalid credentials')
 

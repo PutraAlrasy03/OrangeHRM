@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC030/Page_OrangeHRM/a_Directory'))
+WebUI.click(findTestObject('Object Repository/S6 - Directory/TC030/Page_OrangeHRM/a_Directory'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory')
 
-WebUI.setText(findTestObject('Object Repository/TC030/Page_OrangeHRM/input'), 'Odis  Adalwin')
+WebUI.setText(findTestObject('Object Repository/S6 - Directory/TC030/Page_OrangeHRM/input'), 'Odis  Adalwin')
 
-WebUI.click(findTestObject('Object Repository/TC030/Page_OrangeHRM/button_Search'))
+WebUI.click(findTestObject('Object Repository/S6 - Directory/TC030/Page_OrangeHRM/button_Search'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/TC030/Page_OrangeHRM/div_Odis  Adalwin Chief Technical OfficerAd_763a27'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/S6 - Directory/TC030/Page_OrangeHRM/div_Odis  Adalwin Chief Technical OfficerAd_763a27'), 
     0)
 

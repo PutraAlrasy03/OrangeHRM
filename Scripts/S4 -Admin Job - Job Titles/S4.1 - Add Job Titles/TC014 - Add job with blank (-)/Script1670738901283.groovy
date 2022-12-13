@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.callTestCase(findTestCase('Common/Add job'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC014/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC014/Page_OrangeHRM/button_Save'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/TC014/Page_OrangeHRM/span_Required'), 'Required')
+WebUI.verifyElementText(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC014/Page_OrangeHRM/span_Required'), 'Required')
 

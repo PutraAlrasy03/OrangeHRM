@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AdminPIMLeaveTimeRecruitmentMy InfoPerf_b59fa6</name>
+   <tag></tag>
+   <elementGuidId>f3c9a5eb-e8f2-44f7-a9dc-05a1e7e97666</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.oxd-layout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>92fd39f3-d61b-4013-ad51-cd6ceaef32b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-layout</value>
+      <webElementGuid>0c5f63d0-9733-4bac-b4b0-9ddbcf65bfe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AdminPIMLeaveTimeRecruitmentMy InfoPerformanceDashboardDirectoryMaintenanceBuzzPIMPaul CollingsConfiguration Employee ListAdd EmployeeReportsUpdate PasswordUsernameAdminCurrent PasswordBetter PasswordYour password must contain a lower-case letter, an upper-case letter, a digit and a special character. Try a different passwordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm PasswordRequired * Required Cancel  Save OrangeHRM OS 5.2© 2005 - 2022 OrangeHRM, Inc. All rights reserved.</value>
+      <webElementGuid>bd5ec763-c639-46f3-aae2-38552d67a877</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]</value>
+      <webElementGuid>cfb97a48-5e9b-45b4-b90e-2dfdbfbb7856</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div</value>
+      <webElementGuid>7eec9766-e92d-4dbb-8ac6-8e507254a672</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>2fb83308-5a65-4006-bcbd-7df922f8bda4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AdminPIMLeaveTimeRecruitmentMy InfoPerformanceDashboardDirectoryMaintenanceBuzzPIMPaul CollingsConfiguration Employee ListAdd EmployeeReportsUpdate PasswordUsernameAdminCurrent PasswordBetter PasswordYour password must contain a lower-case letter, an upper-case letter, a digit and a special character. Try a different passwordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm PasswordRequired * Required Cancel  Save OrangeHRM OS 5.2© 2005 - 2022 OrangeHRM, Inc. All rights reserved.' or . = 'AdminPIMLeaveTimeRecruitmentMy InfoPerformanceDashboardDirectoryMaintenanceBuzzPIMPaul CollingsConfiguration Employee ListAdd EmployeeReportsUpdate PasswordUsernameAdminCurrent PasswordBetter PasswordYour password must contain a lower-case letter, an upper-case letter, a digit and a special character. Try a different passwordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm PasswordRequired * Required Cancel  Save OrangeHRM OS 5.2© 2005 - 2022 OrangeHRM, Inc. All rights reserved.')]</value>
+      <webElementGuid>a60d53ca-619c-4d95-9bd8-e9914fa3a657</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

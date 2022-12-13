@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC009/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/a_Admin'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers')
 
-WebUI.click(findTestObject('Object Repository/TC009/Page_OrangeHRM/i_Enabled_oxd-icon bi-check oxd-checkbox-in_111cd0'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/i_Enabled_oxd-icon bi-check oxd-checkbox-in_111cd0'))
 
-WebUI.click(findTestObject('Object Repository/TC009/Page_OrangeHRM/i_Enabled_oxd-icon bi-trash'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/i_Enabled_oxd-icon bi-trash'))
 
-WebUI.click(findTestObject('Object Repository/TC009/Page_OrangeHRM/button_Yes, Delete'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/button_Yes, Delete'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/TC009/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Object Repository/S3 - Admin User Management/TC009/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), FailureHandling.STOP_ON_FAILURE)
 

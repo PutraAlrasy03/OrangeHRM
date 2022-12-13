@@ -19,27 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC008/Page_OrangeHRM/a_Admin'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers')
 
-WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/button_Add'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC008/Page_OrangeHRM/button_Add'))
 
 WebUI.selectOptionByValue(findTestObject(null), '', false)
 
-WebUI.setText(findTestObject('Object Repository/TC008/Page_OrangeHRM/input'), 'Allu  Arjun')
+WebUI.setText(findTestObject('Object Repository/S3 - Admin User Management/TC008/Page_OrangeHRM/input'), 'Allu  Arjun')
 
-WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/div_-- Select --'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC008/Page_OrangeHRM/div_-- Select --'))
 
-WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC008/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'))
 
-WebUI.setText(findTestObject('Object Repository/TC008/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus o_d4f516'), 
+WebUI.setText(findTestObject('Object Repository/S3 - Admin User Management/TC008/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus o_d4f516'), 
     'Allu1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC008/Page_OrangeHRM/input_Password_oxd-input oxd-input--focus o_671073'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/S3 - Admin User Management/TC008/Page_OrangeHRM/input_Password_oxd-input oxd-input--focus o_671073'), 
     'A8J5DB7QB2/+yLWTFNfonQ==')
 
-WebUI.click(findTestObject('Object Repository/TC008/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC008/Page_OrangeHRM/button_Save'))
 
 WebUI.verifyElementChecked(findTestObject('Page_OrangeHRM/div_SuccessSuccessfully Saved'), 0)
 

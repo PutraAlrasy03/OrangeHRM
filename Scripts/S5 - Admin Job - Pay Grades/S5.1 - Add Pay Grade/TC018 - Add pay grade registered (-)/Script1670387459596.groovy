@@ -21,11 +21,11 @@ WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.callTestCase(findTestCase('Common/Add pay grade'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC018/Page_OrangeHRM/button_Add'))
+WebUI.click(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC018/Page_OrangeHRM/button_Add'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade')
 
-WebUI.setText(findTestObject('Object Repository/TC018/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 'Grade 6')
+WebUI.setText(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC018/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 'Grade 6')
 
-WebUI.verifyElementText(findTestObject('Object Repository/TC018/Page_OrangeHRM/span_Already exists'), 'Already exists')
+WebUI.verifyElementText(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC018/Page_OrangeHRM/span_Already exists'), 'Already exists')
 

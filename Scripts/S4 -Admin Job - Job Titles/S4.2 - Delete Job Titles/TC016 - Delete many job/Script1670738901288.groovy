@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC015/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/a_Admin'))
 
-WebUI.click(findTestObject('Object Repository/TC015/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
 
-WebUI.click(findTestObject('Object Repository/TC015/Page_OrangeHRM/li_Job Titles'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/li_Job Titles'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewJobTitleList')
 
-WebUI.click(findTestObject('Object Repository/TC015/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad'))
 
-WebUI.click(findTestObject('TC015/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad - Copy'))
+WebUI.click(findTestObject('S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad - Copy'))
 
-WebUI.click(findTestObject('Object Repository/TC015/Page_OrangeHRM/button_Delete Selected'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/button_Delete Selected'))
 
-WebUI.click(findTestObject('Object Repository/TC015/Page_OrangeHRM/button_Yes, Delete'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/button_Yes, Delete'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/TC015/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), 0)
 

@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC007/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC007/Page_OrangeHRM/a_Admin'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers')
 
-WebUI.click(findTestObject('Object Repository/TC007/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC007/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'))
 
-WebUI.setText(findTestObject('Object Repository/TC007/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 'putra')
+WebUI.setText(findTestObject('Object Repository/S3 - Admin User Management/TC007/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'), 'putra')
 
-WebUI.click(findTestObject('Object Repository/TC007/Page_OrangeHRM/button_Search'))
+WebUI.click(findTestObject('Object Repository/S3 - Admin User Management/TC007/Page_OrangeHRM/button_Search'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/TC007/Page_OrangeHRM/div_No Records Found'), 'No Records Found')
+WebUI.verifyElementText(findTestObject('Object Repository/S3 - Admin User Management/TC007/Page_OrangeHRM/div_No Records Found'), 'No Records Found')
 

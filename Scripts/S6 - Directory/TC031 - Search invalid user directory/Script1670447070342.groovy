@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC031/Page_OrangeHRM/a_Directory'))
+WebUI.click(findTestObject('Object Repository/S6 - Directory/TC031/Page_OrangeHRM/a_Directory'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory')
 
-WebUI.setText(findTestObject('Object Repository/TC031/Page_OrangeHRM/input'), 'Putra  ')
+WebUI.setText(findTestObject('Object Repository/S6 - Directory/TC031/Page_OrangeHRM/input'), 'Putra  ')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/TC031/Page_OrangeHRM/div_Employee NameInvalid'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/S6 - Directory/TC031/Page_OrangeHRM/div_Employee NameInvalid'), 0)
 

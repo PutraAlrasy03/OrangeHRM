@@ -21,13 +21,13 @@ WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.callTestCase(findTestCase('Common/Add pay grade'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC017/Page_OrangeHRM/button_Add'))
+WebUI.click(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC017/Page_OrangeHRM/button_Add'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/payGrade')
 
-WebUI.setText(findTestObject('Object Repository/TC017/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 'Grade 6')
+WebUI.setText(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC017/Page_OrangeHRM/input_Name_oxd-input oxd-input--focus'), 'Grade 6')
 
-WebUI.click(findTestObject('Object Repository/TC017/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC017/Page_OrangeHRM/button_Save'))
 
-WebUI.verifyElementPresent(findTestObject('TC017/Page_OrangeHRM/div_InfoNo Records Found'), 0)
+WebUI.verifyElementPresent(findTestObject('S5 - Admin Job - Pay Grades/TC017/Page_OrangeHRM/div_InfoNo Records Found'), 0)
 

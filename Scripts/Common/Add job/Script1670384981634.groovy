@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/TC012/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC012/Page_OrangeHRM/a_Admin'))
 
-WebUI.click(findTestObject('Object Repository/TC012/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC012/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
 
-WebUI.click(findTestObject('Object Repository/TC012/Page_OrangeHRM/li_Job Titles'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC012/Page_OrangeHRM/li_Job Titles'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewJobTitleList')
 
-WebUI.click(findTestObject('Object Repository/TC012/Page_OrangeHRM/button_Add'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC012/Page_OrangeHRM/button_Add'))
 

@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/TC017/Page_OrangeHRM/a_Admin'))
+WebUI.click(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC017/Page_OrangeHRM/a_Admin'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers')
 
-WebUI.click(findTestObject('Object Repository/TC017/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
+WebUI.click(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC017/Page_OrangeHRM/i_Job_oxd-icon bi-chevron-down'))
 
-WebUI.click(findTestObject('Object Repository/TC017/Page_OrangeHRM/a_Pay Grades'))
+WebUI.click(findTestObject('Object Repository/S5 - Admin Job - Pay Grades/TC017/Page_OrangeHRM/a_Pay Grades'))
 

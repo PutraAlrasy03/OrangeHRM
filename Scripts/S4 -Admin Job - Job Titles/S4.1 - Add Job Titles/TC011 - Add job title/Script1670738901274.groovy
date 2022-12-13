@@ -21,14 +21,14 @@ WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.callTestCase(findTestCase('Common/Add job'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/TC011/Page_OrangeHRM/input_Job Title_oxd-input oxd-input--focus'), 'Cleaner')
+WebUI.setText(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC011/Page_OrangeHRM/input_Job Title_oxd-input oxd-input--focus'), 'Cleaner')
 
-WebUI.setText(findTestObject('Object Repository/TC011/Page_OrangeHRM/textarea_Job Description_oxd-textarea oxd-t_4f7bba'), 
+WebUI.setText(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC011/Page_OrangeHRM/textarea_Job Description_oxd-textarea oxd-t_4f7bba'), 
     'cleaning')
 
-WebUI.click(findTestObject('Object Repository/TC011/Page_OrangeHRM/div_Browse'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC011/Page_OrangeHRM/div_Browse'))
 
-WebUI.click(findTestObject('Object Repository/TC011/Page_OrangeHRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC011/Page_OrangeHRM/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/TC011/Page_OrangeHRM/div_SuccessSuccessfully Saved'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC011/Page_OrangeHRM/div_SuccessSuccessfully Saved'))
 
