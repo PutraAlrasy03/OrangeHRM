@@ -17,22 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/S6 - Directory/TC120/Page_OrangeHRM/a_Time'))
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet')
+WebUI.setText(findTestObject('Object Repository/Common/Page_OrangeHRM/input_Username_username'), username)
 
-WebUI.click(findTestObject('Object Repository/S6 - Directory/TC120/Page_OrangeHRM/i_Attendance_oxd-icon bi-chevron-down'))
+WebUI.setText(findTestObject('Object Repository/Common/Page_OrangeHRM/input_Password_password'), password)
 
-WebUI.click(findTestObject('Object Repository/S6 - Directory/TC120/Page_OrangeHRM/a_My Records'))
+WebUI.click(findTestObject('Object Repository/Common/Page_OrangeHRM/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/S6 - Directory/TC120/Page_OrangeHRM/i_Date_oxd-icon bi-calendar oxd-date-input-icon'))
-
-WebUI.click(findTestObject('Object Repository/S6 - Directory/TC120/Page_OrangeHRM/div_10'))
-
-WebUI.click(findTestObject('Object Repository/S6 - Directory/TC120/Page_OrangeHRM/button_View'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/S6 - Directory/TC120/Page_OrangeHRM/span_(1) Record Found'), 
-    0)
+WebUI.verifyElementText(findTestObject('Object Repository/Common/Page_OrangeHRM/div_Dashboard'), 'Dashboard')
 
