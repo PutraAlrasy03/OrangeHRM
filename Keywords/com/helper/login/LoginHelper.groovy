@@ -21,19 +21,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class LoginHelper {
-	
+
 	@Keyword
 	public void LoginIntoWeb(String Username,String Password) {
 		WebUI.openBrowser('')
-		
+
 		WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-		
+
 		WebUI.setText(findTestObject('Object Repository/Common/Page_OrangeHRM/input_Username_username'), GlobalVariable.username)
-		
+
 		WebUI.setText(findTestObject('Object Repository/Common/Page_OrangeHRM/input_Password_password'), GlobalVariable.password)
-		
+
 		WebUI.click(findTestObject('Object Repository/Common/Page_OrangeHRM/button_Login'))
-		
+
 		WebUI.verifyElementText(findTestObject('Object Repository/Common/Page_OrangeHRM/div_Dashboard'), 'Dashboard')
 	}
 	@Keyword
