@@ -6,12 +6,12 @@
    <elementGuidId>1b8eb175-b575-4d70-879a-c81d3b116a87</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.oxd-dropdown-menu > li</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[2]/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.oxd-dropdown-menu > li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>1a3a7de5-7c44-41d7-88ea-4f763e36ebcd</webElementGuid>
+      <webElementGuid>ec8483b5-cbdd-4849-8c69-8915cf51a08b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Job Titles</value>
-      <webElementGuid>f1bdb653-2fc3-4899-b397-60d806d7af90</webElementGuid>
+      <webElementGuid>361bc432-a170-4025-a412-2bebb29ba506</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;--active oxd-topbar-body-nav-tab --parent&quot;]/ul[@class=&quot;oxd-dropdown-menu&quot;]/li[1]</value>
-      <webElementGuid>8e839c0e-2b24-48e0-ab59-9387a341b907</webElementGuid>
+      <webElementGuid>8e6392e9-09ea-4f19-b5ac-ef9418aaa0e5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[2]/ul/li</value>
-      <webElementGuid>0ad9edf7-85c2-4f1f-8823-fa6b0eabeb26</webElementGuid>
+      <webElementGuid>5f154f2b-ca68-4977-bf7d-02e6b811360a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Job'])[1]/following::li[1]</value>
-      <webElementGuid>83bb1bb4-a415-4ab5-b05c-00429e555419</webElementGuid>
+      <webElementGuid>fc1d6419-1e2f-41e9-bbe8-641a7ef349c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Management'])[1]/following::li[2]</value>
-      <webElementGuid>609d429f-324f-4992-bd87-b388ac7c001c</webElementGuid>
+      <webElementGuid>3a09e9e1-7533-4796-811b-197dd6647b43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/preceding::li[5]</value>
-      <webElementGuid>1247629c-a53f-4049-acf3-291035b7648c</webElementGuid>
+      <webElementGuid>9df3802a-f938-487a-87ca-09bf9b70bf88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualifications'])[1]/preceding::li[6]</value>
-      <webElementGuid>aa2b017e-c616-4b30-abd0-47002879705a</webElementGuid>
+      <webElementGuid>27d2b917-6845-496a-8af3-43a86bd9e1ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/ul/li</value>
-      <webElementGuid>4b9ceaca-cacd-44bd-b807-872a049194e7</webElementGuid>
+      <webElementGuid>e7c0dc8b-40e1-44e8-91dc-e262386b5630</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Job Titles' or . = 'Job Titles')]</value>
-      <webElementGuid>100b716e-3546-46fd-8d95-350dcd45b2da</webElementGuid>
+      <webElementGuid>5aa7ae71-9d84-4a4d-9793-9de4718aa9bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>0077b1a1-d1eb-4b53-a236-9819f84fbe2e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[2]/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>c1a8f738-e76c-4de1-81dd-8db0fc12e460</webElementGuid>
+      <webElementGuid>a46af585-e224-4645-b277-13a5928454e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-icon bi-chevron-down</value>
-      <webElementGuid>88fd7f97-e7a1-4abe-a0c3-6d30d4c70c69</webElementGuid>
+      <webElementGuid>5130ff45-99be-481b-816f-8ef4f4e78035</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>with-container</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cf1074dc-8bb8-47ba-ac4a-ed16acb1a491</webElementGuid>
+      <webElementGuid>bd985346-cb53-42ad-9ec8-70e9ce6c9811</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;oxd-topbar-body-nav-tab --parent&quot;]/span[@class=&quot;oxd-topbar-body-nav-tab-item&quot;]/i[@class=&quot;oxd-icon bi-chevron-down&quot;]</value>
-      <webElementGuid>e9d6ca06-b39a-4036-a859-abcf00f23b5a</webElementGuid>
+      <webElementGuid>c796bbac-e26e-488a-a3a3-d673f9bda7d7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[2]/span/i</value>
-      <webElementGuid>9d02176e-a901-4e33-9097-840163b61d31</webElementGuid>
+      <webElementGuid>e3a6691f-7a47-4df6-87d7-5dff387d173d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +61,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/span/i</value>
-      <webElementGuid>420df89f-7b63-4473-81fa-a142f90a1e3c</webElementGuid>
+      <webElementGuid>9cddefb6-6f02-497f-8f28-73532033dc0a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

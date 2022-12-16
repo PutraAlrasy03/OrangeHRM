@@ -6,12 +6,12 @@
    <elementGuidId>b1282f11-0224-4898-9d7c-95374e6f56fd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.oxd-main-menu-item</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.oxd-main-menu-item</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>833cced5-9ef2-4871-93a2-ebeb794dfa22</webElementGuid>
+      <webElementGuid>4480e373-b831-4d4b-963d-53a646cb1a31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-main-menu-item</value>
-      <webElementGuid>c90902db-823e-440b-90b3-31bd86d2f393</webElementGuid>
+      <webElementGuid>21f0f056-ec71-4daa-ad6d-3fe0c1bd5a46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/web/index.php/admin/viewAdminModule</value>
-      <webElementGuid>dfc5e194-a046-4d7f-991d-b478798a06cb</webElementGuid>
+      <webElementGuid>7dda0eaf-3f44-4dc3-8e1b-02ce2f959141</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Admin</value>
-      <webElementGuid>6bf05ae8-6e71-40d4-9730-71d247ad3304</webElementGuid>
+      <webElementGuid>317ef4bd-0e19-465e-a218-34fce26b762d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>c9a4c624-a2a2-4e61-b43b-73f0d30996bf</webElementGuid>
+      <webElementGuid>172a9372-e51e-476a-b731-9d03a459bcbc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a</value>
-      <webElementGuid>0dd9b5ae-98f4-4cea-b05a-5f2179dd3c86</webElementGuid>
+      <webElementGuid>984589fe-45e3-4d91-8161-1f6a02a6fe58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/web/index.php/admin/viewAdminModule')]</value>
-      <webElementGuid>39ba408c-528a-4db0-a6ff-74458bee2f2e</webElementGuid>
+      <webElementGuid>dd3ddf5e-786e-44cd-96d8-4e05ebe8d83e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a</value>
-      <webElementGuid>ca7df7de-959e-424b-82da-fc9e22eb44d7</webElementGuid>
+      <webElementGuid>94d4ac5b-6559-4983-bf9f-515d12440f8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/web/index.php/admin/viewAdminModule' and (text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>263c2275-c487-40ac-99a1-8d1407acb84e</webElementGuid>
+      <webElementGuid>1763cbba-06fa-4851-bde5-776daddeeb9e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

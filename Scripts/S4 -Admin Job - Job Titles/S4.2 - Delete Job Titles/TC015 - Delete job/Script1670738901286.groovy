@@ -33,5 +33,6 @@ WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/
 
 WebUI.click(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/button_Yes, Delete'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/S4 - Admin Job - Job Titles/TC015/Page_OrangeHRM/div_SuccessSuccessfully Deleted'), 
+    0)
 
